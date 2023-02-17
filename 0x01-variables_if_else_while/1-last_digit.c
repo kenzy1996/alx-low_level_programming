@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Assigning a random sum
+ * main - prints last digit of randomly generated number
+ * and whether it is greater than 5, less than 6, or 0
  *
  * Return: 0
  */
