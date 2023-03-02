@@ -4,8 +4,8 @@
  * infinite_add - adds two numbers
  * @n1: the first number to be added
  * @n2: the second number to be added
- * @r: the buffer to store the result
- * size_r: the buffer size
+ * @r: the  buffer to store the result
+ * @size_r: the buffer size
  *
  * Return: if r can store the sum - a pointer to the result
  *         if r cannot store the sum - 0
@@ -17,12 +17,12 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 /**
  * add_strings - adds the number stored in two strings
- * @n1: The string containing the first number to be added
- * @n2: the string containing the second number to be added
+ * @n1: The string containing the first number to be added.
+ * @n2: the string containing the second number to be added.
  * @r: the buffer to store the result
  * @r_index: the current index of the buffer
  *
- * Return: if r can store the sum - a pointer to the result
+ * Return: if r can store the sum - a pointer to the result.
  *         if r cannot store the sum - 0
  */
 
